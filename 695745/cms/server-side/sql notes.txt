@@ -1,0 +1,21 @@
+CREATE DATABASE IF NOT EXISTS shoppingsite
+
+SHOW TABLES LIKE "practice"
+
+create table product
+(productID int,
+ productName varchar(100),
+ productDiscription varchar(10000),
+ productPrice decimal(8,2),
+ numberInStock int,
+ productImageURL varchar(100));
+
+create table purchases
+(purchaseID int,
+ customerName varchar(40),
+ customerAddress varchar(100),
+ productID int,
+ quanity int,
+ dateOfPurchase date,
+ dispatched bool
+ );

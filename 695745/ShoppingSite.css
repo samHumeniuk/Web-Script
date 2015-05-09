@@ -1,0 +1,245 @@
+p.total
+{
+    float: none;
+}
+
+ul.categories
+{
+    list-style-type: none;
+    float: left;
+    width: 100%;
+    max-width: 100%;
+    min-width: 100%;
+    min-height: 2em;
+    padding: 0;
+    margin: 1em;
+    cursor: pointer;
+    display:inline-block;
+    border-radius: 8px;
+}
+ul.categories li
+{
+    /*display: inline;*/
+    padding: 0.4em 1.2em;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block;
+    
+}
+
+ul.categories li:hover
+{
+    /*display: inline;*/
+    padding: 0.4em 1.2em;
+    text-decoration: underline;
+    margin-left: auto;
+    margin-right: auto;
+    display:inline-block;
+    color: #A9E2F3;
+    
+}
+
+body
+{
+    background-color:#CAEAF5 /*#A9E2F3 */ /*possible alternative colours #F6DC99 */ /*#E3F6CE; */
+}
+
+/*the search bars */
+input
+{
+    width: 70%;
+    max-width: 40em;
+    min-width: 10%;
+    height: 2.5em;
+}
+select
+{
+    min-width: 10em;
+    height: 2em;
+}
+
+textarea
+{
+    width: 70%;
+    max-width: 40em;
+    min-width: 10%;
+    height: 5em;
+}
+
+input.inputNumber
+{
+    width: 5%;
+}
+input.inputStock
+{
+    width: 5%;
+    float: right;
+}
+input.quantity
+{
+    width: 70%;
+}
+input.button
+{
+    width: 5%;
+}
+button
+{
+    float: right;
+}
+button.left
+{
+    float: left;
+}
+input.checkbox
+{
+  width:1em;
+  height:1em;
+  max-width:1em;
+  min-width:3em;
+  /*height: 90%;*/
+}
+
+table
+{
+    border-radius: 5px;
+}
+table.searchResults
+{
+    width: 50%;
+}
+table.purchases
+{
+    width: 70%;
+   
+}
+table.purchases tr
+{
+    height: 3em;
+}
+
+ul {
+    list-style-type:none;
+    //margin:0;
+    //padding:0;
+    background: #01A9DB;
+        /*#FFFFFF;*/
+    width: 50%;
+    max-width: 25em;
+    min-width: 10%;
+    margin-left: 42px;
+}
+
+/*the table*/
+table
+{
+    margin: 0 auto;
+}
+
+tr
+{
+    height: 10em;
+}
+td
+{
+    width: 10em;
+}
+
+h1 {
+
+	text-align: center;
+	font-family:  AR ESSENCE, cursive, Comic Sans, Serif;
+	font-size: 300%;
+	color: #01A9DB;
+	-webkit-margin-before: 0.3em;
+	-webkit-margin-after: 0.2em;
+}
+
+h2 {
+        text-align: center;
+	-webkit-margin-before: 0.83em;
+	font-family: AR ESSENCE, cursive, Comic Sans, Serif;
+	font-size: 220%;
+}
+
+h3 {
+	font-size: 150%;
+        text-align: center;
+}
+
+h4 {
+	font-size: 120%;
+        text-align: center;
+        margin-top: 0;
+        border-top: 0;
+        padding-top: 0;
+        margin-bottom: 0;
+}
+
+section {
+	margin: 1em auto;
+	max-width: 50em;
+	min-height: 50em;
+	text-align: justify;
+}
+
+
+article {
+	/*background-color: #CEF6F5;*/
+	margin: 1em auto;
+	max-width: 55em;
+
+
+}
+
+
+p 
+{
+	font-family: sans-serif;
+	font-size: 115%;
+}
+strong
+{
+    font-family: sans-serif;
+    font-size: 115%;
+    
+}
+
+
+li {
+	/*display:inline;*/
+	font-family: sans-serif;
+	font-size: 115%;
+}
+
+
+a
+{
+	/*width:500px;
+	background-color:#CEF6F5; /* also is the colour of the menu bar since
+							these are links */
+}
+
+footer
+{
+    /*position:fixed;*/
+    /*bottom:0;*/
+    text-align: center;
+    width: 100%;
+}
+footer > p
+{
+  /*text-align: right;*/
+}
+footer > a
+{
+  text-align: right;
+}
+/*footer {
+    clear: both;
+    position: relative;
+    z-index: 10;
+    height: 3em;
+    margin-top: -3em;
+}*/

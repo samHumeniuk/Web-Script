@@ -1,0 +1,6 @@
+light blue: #A9E2F3
+light blue new: #CAEAF5
+dark blue: #01A9DB
+green: #5FB404
+gold: #FFBF00
+maroon: #BA0606
